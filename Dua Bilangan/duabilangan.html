@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="duabilangan.css">
+    <title>Dua Bilangan</title>
+</head>
+<body>
+    <div>Bilangan Pertama :</div>
+    <input id="bilanganPertama" type="number" onchange="pertambahan()">
+    <br>
+    +
+    <br>
+    <div>Bilangan Kedua :</div>
+    <input id="bilanganKedua" type="number" onchange="pertambahan()">
+    <br>
+    =
+    <br>
+    <div id="hasilPertambahan"></div>
+
+    <script>
+    function pertambahan() {
+        const bilanganPertama = document.getElementById('bilanganPertama').value;
+        const bilanganKedua = document.getElementById('bilanganKedua').value;
+        hasilPertambahan.innerHTML = Number(bilanganPertama) + Number(bilanganKedua);
+    }
+    </script>
+</body>
+</html>

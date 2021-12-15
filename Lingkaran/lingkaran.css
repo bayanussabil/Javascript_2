@@ -1,0 +1,9 @@
+body{
+	background-color: blanchedalmond;
+    text-align: center;
+    padding: 20%;
+}
+#hasil, #hasilluas{
+	background-color: #FFF;
+	border: 2px solid black;
+}
